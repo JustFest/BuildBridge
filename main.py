@@ -174,7 +174,7 @@ class Bridger:
 def main():
     logger.info(f'{" "*32}автор - https://t.me/iliocka{" "*32}')
 
-    api = 'HZ2p9T0lNlHR6yhfsnIveFJyTkMOEad5qjT81ysExFsbHbxi6GFmY7b3pi6PfnLD'   #https://admin.moralis.io/settings#secret-keys
+    api = ''   #https://admin.moralis.io/settings#secret-keys
     with open("keys.txt", "r") as f:
         keys = [row.strip() for row in f]
     for key in keys:
